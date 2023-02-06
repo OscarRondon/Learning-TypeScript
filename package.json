@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "ts-standard": "^12.0.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/ts-standard/eslintrc.json"
+	},
+  "ts-standard": {
+		"project": "./tsconfig.json",
+		"ignore": [
+		  "**/out/",
+		  "/lib/select2/",
+		  "/lib/ckeditor/",
+		  "**/dist/"
+		]
+  }
+}

@@ -1,6 +1,6 @@
 "use strict";
 function holaMundo() {
-    return "Hola Mundo!!!";
+    return 'Hola Mundo!!!';
 }
 function addNumbers(x, y) {
     return x + y;
