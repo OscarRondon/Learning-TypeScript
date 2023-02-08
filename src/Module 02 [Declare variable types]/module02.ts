@@ -41,7 +41,7 @@ console.log(a)
    Season.Fall, instead of the literal string "Fall". */
 
 enum Season {
-  Fall,
+  Fall = 1,
   Winter,
   Spring,
   Summer
@@ -70,11 +70,11 @@ console.log(whichMonths(Season.Fall))
 /* EXERCISE 4
    TODO: Declare the array as the type to match the type of the items in the array. */
 
-   let randomNumbers: number[] = [];
-   let nextNumber;
-   for (let i = 0; i < 10; i++) {
-       nextNumber = Math.floor(Math.random() * (100 - 1)) + 1;
-       randomNumbers.push(nextNumber);
-   }
-   
-   console.log(randomNumbers);
+const randomNumbers: number[] = []
+let nextNumber
+for (let i = 0; i < 10; i++) {
+  nextNumber = Math.floor(Math.random() * (100 - 1)) + 1
+  randomNumbers.push(nextNumber)
+}
+
+console.log(randomNumbers)
