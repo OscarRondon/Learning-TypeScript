@@ -1,17 +1,22 @@
 {
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.13.0",
     "ts-standard": "^12.0.2"
   },
   "eslintConfig": {
     "extends": "./node_modules/ts-standard/eslintrc.json"
-	},
+  },
   "ts-standard": {
-		"project": "./tsconfig.json",
-		"ignore": [
-		  "**/out/",
-		  "/lib/select2/",
-		  "/lib/ckeditor/",
-		  "**/dist/"
-		]
+    "project": "./tsconfig.json",
+    "ignore": [
+      "**/out/",
+      "/lib/select2/",
+      "/lib/ckeditor/",
+      "**/dist/"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   }
 }
