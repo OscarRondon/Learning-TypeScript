@@ -1,6 +1,7 @@
 "use strict";
 /*  Module 6: DGenerics in TypeScript
     Lab Start */
+Object.defineProperty(exports, "__esModule", { value: true });
 /*  DataStore is a utility function that can store up to 10 string values in an array.
     Rewrite the DataStore class so the array can store items of any type.
 

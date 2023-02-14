@@ -2,6 +2,7 @@
 /*  EXERCISE 1
     TODO: Modify the code to add types to the variable declarations.
     The resulting JavaScript should look the same as the original example when you're done. */
+Object.defineProperty(exports, "__esModule", { value: true });
 let firstName;
 let lastName;
 let fullName;

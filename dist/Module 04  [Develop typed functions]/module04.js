@@ -1,6 +1,7 @@
 "use strict";
 /* Module 4: Develop typed functions using TypeScript
    Lab Start  */
+Object.defineProperty(exports, "__esModule", { value: true });
 /*  EXERCISE 1
     TODO: Declare a new function type for the sortDescending and sortAscending functions. */
 /*  TODO: Convert the sortDescending and sortAscending functions to arrow

@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 class Car {
     // Properties
     static numberOfCars = 0; // New static property

@@ -1,6 +1,7 @@
 "use strict";
 /*  Module 5: Declare and instantiate classes in TypeScript
     Lab End  */
+Object.defineProperty(exports, "__esModule", { value: true });
 /*  EXERCISE 1 */
 class BuildArray {
     // TODO Define the properties

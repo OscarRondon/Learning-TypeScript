@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function calculateInterestOnlyLoanPayment(loanTerms) {
     // Calculates the monthly payment of an interest only loan
     const interest = loanTerms.interestRate / 1200; // Calculates the Monthly Interest Rate of the loan

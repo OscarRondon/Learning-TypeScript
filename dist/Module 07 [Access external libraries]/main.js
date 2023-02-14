@@ -34,7 +34,7 @@ const dotenv_1 = __importDefault(require("dotenv"));
 allGreetingFunctions.returnGreeting('Bonjour'); // Displays 'The message from Greetings_module is Bonjour!'
 (0, greetings_utilities_module_1.returnGreeting)('Ciao!'); // Displays 'The message from GreetingsWithLength_module is Ciao! It is 5 characters long.'
 const result = dotenv_1.default.config();
-if (result.error) {
+if (result.error != null) {
     throw result.error;
 }
 console.log(result.parsed); // Returns { DB_HOST: 'localhost', WEB_HOST: 'staging.adventure-works.com' }
