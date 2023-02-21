@@ -1,12 +1,13 @@
-/*  Module 5: Declare and instantiate classes in TypeScript
-    Lab End  */
+/* 
+Declare and instantiate classes in TypeScript Lab End  
+*/
 
 /*  EXERCISE 1 */
 
 class BuildArray {
   // TODO Define the properties
   private _items: number
-  private _sortOrder: 'ascending' | 'descending'
+  private _sortOrder: 'ascending' | 'descending';
 
   // TODO Define the constructor
   constructor (items: number, sortOrder: 'ascending' | 'descending') {

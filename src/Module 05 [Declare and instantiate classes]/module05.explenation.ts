@@ -9,7 +9,7 @@ interface Vehicle {
 
 class Car implements Vehicle {
   // Properties
-  private static numberOfCars: number = 0 // New static property
+  private static numberOfCars: number // New static property
   private _make: string
   private _color: string
   private _doors: number
@@ -18,7 +18,7 @@ class Car implements Vehicle {
   constructor (make: string, color: string, doors = 4) {
     this._make = make
     this._color = color
-    if ((doors % 2) === 0) {
+    if (doors % 2 === 0) {
       this._doors = doors
     } else {
       throw new Error('Doors must be an even number')
@@ -48,7 +48,7 @@ class Car implements Vehicle {
   }
 
   set doors (doors) {
-    if ((doors % 2) === 0) {
+    if (doors % 2 === 0) {
       this._doors = doors
     } else {
       throw new Error('Doors must be an even number')
